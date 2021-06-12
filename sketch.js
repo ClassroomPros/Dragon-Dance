@@ -161,7 +161,7 @@ function spawnObstacles() {
   if(frameCount % 60 === 0) {
     var obstacle = createSprite(800,height-125,20,30);
     obstacle.setCollider('circle',0,0,355)
-    obstacle.debug = true
+   // obstacle.debug = true
   
     obstacle.velocityX = -(9 + 3*score/300);
     
